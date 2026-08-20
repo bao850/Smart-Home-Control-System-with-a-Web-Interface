@@ -5,3 +5,9 @@ An IoT-based smart home automation and security system using Arduino Nano and ES
     <br>
   Image 1.1. Right-side view of the model
 </p>
+<p align="center">
+  <img width="400" src="<img width="370" height="492" alt="image" src="https://github.com/user-attachments/assets/84724cab-d5ae-4b4f-b710-0eefbe7c0b27" />
+>
+  <br>
+  Hình 4.5. Góc nhìn từ bên trái mô hình
+</p>
