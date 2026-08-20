@@ -21,3 +21,14 @@ An IoT-based smart home automation and security system using Arduino Nano and ES
   <br>
   Image 1.4.Top view of the model
 </p>
+<p align="center">
+<img width="374" height="498" alt="image" src="https://github.com/user-attachments/assets/78cfbc34-89d5-4601-ae11-b4629b8bda6d" />
+  <br>
+  Image 1.5.Turning off the high-brightness LED
+</p>
+</p>
+<p align="center">
+<img width="400"  alt="image" src="https://github.com/user-attachments/assets/44d6b0f0-0aaf-44e3-9e9a-f43362aea191" />
+  <br>
+  Image 1.6.Turn on the high-brightness LED at level 1
+</p>
