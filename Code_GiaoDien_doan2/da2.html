@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BED_ROOM</title>
+	<link rel="stylesheet" href="da2.css">
+</head>
+<body>
+		<div class="container1">
+			<div class="bubbles">
+			   <span style="--i:11;"></span> 
+			   <span style="--i:12;"></span>
+			   <span style="--i:24;"></span>
+			   <span style="--i:10;"></span>
+			   <span style="--i:14;"></span> 
+			   <span style="--1:23;"></span>
+			   <span style="--i:18;"></span>
+			   <span style="--i:16;"></span>
+			   <span style="--i:19;"></span>
+			   <span style="--1:20;"></span>
+			   <span style="--i:22;"></span>
+			   <span style="--1:25;"></span>
+			   <span style="--i:18;"></span>
+			   <span style="--i:21;"></span>
+			   <span style="--i:15;"></span>
+			   <span style="--i:13;"></span>
+			   <span style="--i:26;"></span>
+			   <span style="--i:17;"></span>
+			   <span style="--i:13;"></span>
+			   <span style="--i:28;"></span>
+			   <span style="--i:11;"></span>
+			   <span style="--i:12;"></span>
+			   <span style="--i:24;"></span>
+			   <span style="--i:10;"></span>
+			   <span style="--i:14;"></span>
+			   <span style="--1:23;"></span>
+			   <span style="--i:18;"></span>
+			   <span style="--i:16;"></span>
+			   <span style="--i:19;"></span>
+			   <span style="--1:20;"></span>
+			   <span style="--i:22;"></span>
+			   <span style="--1:25;"></span>
+			   <span style="--i:18;"></span>
+			   <span style="--i:21;"></span>
+			   <span style="--i:15;"></span>
+			   <span style="--i:13;"></span>
+			   <span style="--i:26;"></span>
+			   <span style="--i:17;"></span>
+			   <span style="--i:13;"></span>
+			   <span style="--i:28;"></span>
+			</div>
+
+			
+		<div class="header"><h1>Đồ Án 2 : Thiết Kế Hệ Thống Điều Khiển Thiết Bị Trong Nhà Qua Webserver</h1></div>
+		<div class="forter">
+				<br>NGUYỄN XUÂN HỒNG - 19161111</br>
+				<br>THÁI BẠCH THÀNH LONG - 19161132</br>
+
+		</div>
+        
+
+		<img id = "denId_01" class="card-img-top" src="picture/light_bulb_off.png"  style="width:20%;"></img>
+		<img class="remote_tv" src="picture/remote_tv.png" width="200" height="150" alt="" />
+		<img class="remote_ac" src="picture/remote_ac.png" width="180" height="150" alt="" />
+		<img class="remote_lamp" src="picture/remote_lamp.png" width="100" height="150" alt="" />
+		
+        <div class="lamp_bt">
+			<button id ="btnOnId_01">ON</button> 
+	    	<button id ="btnOffId_01">OFF</button>
+		</div>	 
+
+		<img id = "denId_02" class="card-img-top" src="picture/AC_OFF.png" style="width:25%;"></img>
+		<div class="AC_bt">
+			<button id="btnOnId_02">ON</button>
+	    	<button id="btnOffId_02">OFF</button>
+		</div>
+
+		<img id = "denId_03" class="card-img-top" src="picture/TV_OFF.png" style="width: 25%;"></img>
+		<div class="TV_bt">
+			<button id="btnOnId_03">ON</button>
+	    	<button id="btnOffId_03">OFF</button>
+		</div>
+
+		<div class = container>
+			<from>
+				<input type="radio" id="stop" name="fan">
+				<label for="stop" id="stop_active">0</label>
+		
+				<input type="radio" id="low" name="fan">
+				<label for="low" id="low_active">1</label>
+				
+				<input type="radio" id="mid" name="fan">
+				<label for="mid" id="mid_active">2</label>
+		
+				<input type="radio" id="high" name="fan">
+				<label for="high" id="high_active">3</label> 
+
+				<div class = "svg">
+					<img class="wings" src="picture/fan-removebg.png" >
+				</div>
+			</from>
+		</div>
+
+		<div class="cambien">
+            
+            <div class="n_do">
+                <img id="cb_01" class="cb" src="picture/temperature.png" alt="Card image" style="width:45%">
+                <h2>Nhiệt độ: <span id="nhietdo">00</span>℃ </h2>
+            </div>
+
+            <div class="d_am">
+                <img id="cb_02" class="cb" src="picture/humi.png" alt="Card image" style="width:45%">
+                <h2>Độ ẩm: <span id="doam">00</span>%</h2>
+            </div>
+
+            <div class="k_ga">
+                <img id="cb_03" class="cb" src="picture/smoke1.png" alt="Card image" style="width:45%">
+                <h2>Khí Ga: <span id="khiga">000</span></h2>
+            </div>
+
+			<div class="cb_as">
+                <img id="cb_04" class="cb" src="picture/lamp_on.png" alt="Card image" style="width:45%">
+                <h2>CB AS: <span id="cb_as">0</span></h2>
+            </div>
+
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+		<script src="da2.js"></script>
+		
+	</body>	
+</html>
+
+
+
+
+
+
